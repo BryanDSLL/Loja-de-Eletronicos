@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 import './App.css';
 import 'bulma/css/bulma.min.css';
 import Home from './pages/Home/Home';
@@ -10,7 +10,7 @@ import Formulario from './pages/Formulario/Formulario';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/Loja-de-Eletronicos" element={<Home />} />
         <Route path="/vitrine" element={<Vitrine />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/formulario" element={<Formulario />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
