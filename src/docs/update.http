@@ -1,0 +1,13 @@
+PUT  https://63069afec0d0f2b8011f9944.mockapi.io/produtos/45
+Content-Type: application/json
+
+{
+  "id": "45",
+  "loja": "TechShop",
+  "descProd": "iPhone 13 Apple 128GB",
+  "detalhes": "Sistema de câmera Pro com novas câmeras 12MP Telefoto, Wide e Ultra Wide; LiDAR Scanner; Alcance do zoom ótico 6x; macro fotografia; Estilos fotográficos, vídeo ProRes, Smart HDR 4, modo noturno, Apple ProRAW, gravação 4K Dolby Vision HDR",
+  "logoFab": "https://logodownload.org/wp-content/uploads/2013/12/apple-logo-16.png",
+  "fotoProd": "https://assets.stickpng.com/images/61d2f85b92b57c0004c64745.png",
+  "precoProd": "R$ 3.599,99",
+  "estoque": "125 un"
+}

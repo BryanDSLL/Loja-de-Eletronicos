@@ -1,0 +1,33 @@
+"loja": "TechShop",    
+"descProd": "Playstation 5 812GB",
+"detalhes":"Play Has No Limits Jogar Não Tem Limites PlayStation5 O console PS5 oferece novas possibilidades de jogabilidade que você nunca imaginou.",
+"logoFab": "https://w7.pngwing.com/pngs/68/413/png-transparent-playstation-2-logo-video-game-sony-angle-text-nintendo.png",
+"fotoProd": "https://sm.ign.com/ign_br/game/p/playstatio/playstation-5_qjz1.png",
+"precoProd": "R$ 3.899,99",
+"estoque": "18 un"
+
+
+"loja": "TechShop",
+"descProd": "Logitech G Pro Wireless",
+"detalhes":"Feito com jogadores profissionais para jogadores profissionais - Projetado ao longo de dois anos, com colaboração direta de muitos jogadores profissionais de e-sports, o mouse gamer PRO Wireless foi criado para oferecer desempenho de ponta de acordo com os exigentes padrões de alguns dos maiores profissionais de e-sports do mundo.",
+"logoFab": "https://w7.pngwing.com/pngs/11/407/png-transparent-logitech-logo-icon.png",
+"fotoProd": "https://ae01.alicdn.com/kf/S9804de7286aa4b96928138b0aedac26cv/Logitech-g-pro-mouse-sem-fio-para-jogos-x-luz-rgb-superlight-sensor-25600-dpi.png",
+"precoProd": "R$ 499,99",
+"estoque": "47 un"
+
+
+"loja": "TechShop",
+"descProd": "Nvidia RTX 4090 24GB",
+"detalhes":"Multiprocessadores NVIDIA Ada Lovelace: até 2x desempenho e eficiência energética. 4ª geração de núcleos Tensores: até 2 x desempenho de IA. Núcleos RT de 3ª geração: desempenho de traçamento de raios até 2X. Ventiladores de tecnologia axial aumentaram para 23% mais fluxo de ar",
+"logoFab": "https://logodownload.org/wp-content/uploads/2014/09/nvidia-logo-0.png",
+"fotoProd": "https://static.gigabyte.com/StaticFile/Image/Global/35b0cbd3888b6fe9de7ece82930b90f6/Product/32764",
+"precoProd": "R$ 12.399,99",
+"estoque": "4 un"
+
+"loja": "TechShop",
+"descProd": "iPhone 13 Apple 128GB",
+"detalhes":"Sistema de câmera Pro com novas câmeras 12MP Telefoto, Wide e Ultra Wide; LiDAR Scanner; Alcance do zoom ótico 6x; macro fotografia; Estilos fotográficos, vídeo ProRes, Smart HDR 4, modo noturno, Apple ProRAW, gravação 4K Dolby Vision HDR",
+"logoFab": "https://logodownload.org/wp-content/uploads/2013/12/apple-logo-16.png",
+"fotoProd": "https://assets.stickpng.com/images/61d2f85b92b57c0004c64745.png",
+"precoProd": "R$ 3.599,99",
+"estoque": "125 un"

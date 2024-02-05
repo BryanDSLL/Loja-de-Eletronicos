@@ -1,0 +1,529 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@font-face {
+    font-family: RussoOne;
+    src: url(../font/RussoOne-Regular.ttf);
+}
+
+#root {
+    display: grid;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(32, 31, 84), rgb(116, 8, 184));
+    min-height: 110vh;
+
+/* --------------------------------------------------- */
+/* -------------- INICIO_STYLE_HOME ------------------ */
+/* --------------------------------------------------- */
+
+#box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 246px;
+    border-radius: 0.9rem;
+    margin-top: -200px;
+}
+
+#btn {
+    border: solid 3px rgb(9, 9, 9);
+    border-radius: 0.9rem;
+}
+
+#btn:hover {
+    animation: animacao-cartao 1s ease-in forwards;
+}
+
+#box img {
+width: 140px;
+border-radius: 0.7rem;
+}
+
+#topo {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: RussoOne;
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    text-shadow: 0.09em 0.09em rgb(168, 156, 156);
+    box-shadow: 0px 4px 0px #adadad;
+    height: 65px;
+}
+
+#topo::first-letter {
+    color: rgb(77, 8, 181);
+    font-size: 45px;
+}
+
+/* --------------------------------------------------- */
+/* ---------------- FIM_STYLE_HOME ------------------- */
+/* --------------------------------------------------- */
+
+
+/* --------------------------------------------------- */
+/* -------------- INICIO_STYLE_VITRINE --------------- */
+/* --------------------------------------------------- */
+
+#backlink {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(252, 251, 251);
+    background-color: rgb(145, 83, 238);
+    border-radius: 0.2rem;
+    font-family: RussoOne;
+    padding: 5px 10px; 
+    }
+
+  
+    
+#backlink:hover {
+    animation: animacao-backlink 1s ease-out;
+    background-color: rgb(82, 21, 174);
+    }
+
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: -8px;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 5px 10px; 
+    margin-bottom: 40px;
+}
+
+.nav-item {
+    color: rgb(236, 230, 230);
+}
+
+.topo {
+    
+    text-transform: uppercase;
+    font-family: RussoOne;
+    color: black;
+    font-size: 35px;
+    text-shadow: 0.09em 0.09em rgb(168, 156, 156);
+}
+
+.topo::first-letter {
+    color: rgb(77, 8, 181);
+    font-size: 45px;
+}
+  
+.card:hover {
+    animation: animacao-cartao 1s ease-in forwards;
+}
+
+.form-container {
+    width: 30%;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgba(254, 254, 254, 0.678);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;  
+    margin-bottom: 4px;  
+    background-color: rgba(10, 5, 23, 0.338);
+    
+}
+
+.form-container * {
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(235, 230, 230);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display:inline-block
+}
+
+
+
+
+input, textarea, select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    display: inline;
+}
+
+}
+
+
+/* --------------------------------------------------- */
+/* --------------- FIM_STYLE_VITRINE ----------------- */
+/* --------------------------------------------------- */
+
+/* --------------------------------------------------- */
+/* ------------- INICIO_STYLE_DETALHE ---------------- */
+/* --------------------------------------------------- */
+
+.nav {
+    display: inline-block;
+    margin-top:-8px;
+    margin-bottom: 5px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    padding: 0 5%;
+    text-align: center;
+    align-items: center;
+    place-self: center;
+}
+
+.btnAddCarrinho{
+    width: 160px;
+    display: inline-flex;
+    place-self: center;
+    flex-direction: column;
+    color: rgb(252, 251, 251);
+    background-color: rgb(145, 83, 238);
+    border-radius: 3rem;
+    font-family: RussoOne;
+    padding: 5px 10px;   
+}
+
+.btnAddCarrinho:hover{
+    background-color: rgb(253, 252, 253);
+    color: rgb(145, 83, 238);
+    animation: animacao-img 1s ease-out;
+}
+
+.left-side {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.left-side p {
+    font-size: 15px;
+}
+
+.left-side h1 {
+    margin-bottom: 40px;
+}
+
+.left-side span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.left-side a {
+    color: white;
+    width: fit-content;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 0.6rem;
+    text-align: center;
+    align-items: center;
+    place-self: center;
+    animation: animacao-botao 1s ease-in infinite;
+}
+
+.right-side {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side img{
+    width: 70%;
+}
+
+#imagem:hover {
+    animation: animacao-img 1s ease-in forwards;
+}
+
+#empresa {
+    text-align: center;
+    align-self: center;
+}
+
+/* --------------------------------------------------- */
+/* --------------- FIM_STYLE_DETALHE ----------------- */
+/* --------------------------------------------------- */
+
+/* --------------------------------------------------- */
+/* --------------- INICIO_STYLE_SOBRE ---------------- */
+/* --------------------------------------------------- */
+
+.btnSobre {
+    position: fixed;
+    font-weight: bold;
+    bottom: 8px;
+    right: 15px;
+    color: white;
+    background-color: rgb(145, 83, 238);
+    box-shadow: 3px 5px 4px #240333;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 2rem;  
+    animation: animacao-info 2s ease-in-out infinite;   
+}
+
+.btnSobre:hover{
+    background-color: white;
+    color: rgb(145, 83, 238);
+}
+
+.btnForm {
+    position: fixed;
+    font-weight: bold;
+    bottom: 90px;
+    right: 15px;
+    color: white;
+    background-color: rgb(145, 83, 238);
+    box-shadow: 3px 5px 4px #240333;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 2rem;  
+    animation: animacao-info 2s ease-in-out infinite;   
+}
+
+.btnForm:hover{
+    background-color: white;
+    color: rgb(145, 83, 238);
+}
+
+.content-sobre {
+    display: flex;
+    width: 100%;
+    padding: 3%;
+    margin-top: -200px;
+}
+
+
+.left-side-sobre {
+    margin-right: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.left-side-sobre p {
+    font-size: 15px;
+}
+
+.left-side-sobre h1 {
+    margin-bottom: 40px;
+}
+
+.left-side-sobre span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.left-side-sobre a {
+    color: white;
+    width: fit-content;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 0.6rem;
+    place-self: center;
+    animation: animacao-botao 1s ease-in infinite;
+}
+
+.right-side-sobre {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-sobre img{
+    width: 50%;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.aptidoes {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.colunaAp{
+    font-size: 25px;
+}
+
+.aptidoes *{
+    align-items: start; 
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.social {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 25px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+
+.btnGit {
+    margin-right: 8px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 5px 4px #240333;
+    padding: 20px;
+    border-radius: 1rem;   
+}
+
+.btnGit:hover{
+    background-color: white;
+    color: rgb(9, 9, 9);
+}
+
+.btnInsta {
+    margin-top: 10px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(79, 3, 142),  rgb(240, 70, 8), rgb(248, 201, 11));
+    box-shadow: 3px 5px 4px #240333;
+    padding: 20px;
+    border-radius: 1rem;   
+}
+
+.btnInsta:hover{
+    background-image: linear-gradient(to right, rgb(255, 255, 255),  rgb(253, 253, 253), rgb(251, 251, 250));
+    color:rgb(240, 70, 8);
+}
+
+
+
+  
+  
+  
+
+/* --------------------------------------------------- */
+/* ---------------- FIM_STYLE_SOBRE ------------------ */
+/* --------------------------------------------------- */
+
+/* --------------------------------------------------- */
+/* ------------------- ANIMAÇÕES --------------------- */
+/* --------------------------------------------------- */
+
+@keyframes animacao-img {
+    0% {
+       transform: scale(100%);
+    }
+    
+    70% {
+        transform: scale(115%);
+     }
+    
+    100% {
+       transform: scale(115%);
+    }
+}
+
+
+@keyframes animacao-cartao {
+    0% {
+        transform: scale(100%);
+    }
+    
+    70% {
+        transform: scale(110%);
+    }
+    
+    100% {
+        transform: scale(110%);
+    }
+}
+
+@keyframes animacao-backlink {
+    0% {
+        transform: translateX(0px);
+    }
+    
+    25% {
+        transform: translateX(-15px);
+    }
+    
+    50% {
+        transform: translateX(15px);
+    }
+    
+    100% {
+        transform: translateX(0px);
+    }
+
+  
+}
+
+@keyframes animacao-info {
+    0% {
+        transform: translateX(0px);
+    }
+    
+    40% {
+        transform: translateX(-5px);
+    }
+    
+    80% {
+        transform: translateX(5px);
+    }
+    
+    100% {
+        transform: translateX(0px);
+    }
+
+  
+}
+
+@keyframes animacao-botao {
+    0% {
+       transform: translateY(0px);
+    }
+    
+    25% {
+       transform: translateY(-8px);
+    }
+    
+    50% {
+       transform: translateY(8px);
+    }
+    
+    100% {
+       transform: translateY(0px);
+    }
+   
+   }
+
+
+/* --------------------------------------------------- */
+/* ------------------- ANIMAÇÕES --------------------- */
+/* --------------------------------------------------- */
